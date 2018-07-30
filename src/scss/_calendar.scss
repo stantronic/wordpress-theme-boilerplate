@@ -1,0 +1,22 @@
+@import 'palette';
+@import "page";
+
+$calendar-border-width: 10px;
+
+.calendar-table {
+  width: 70vw;
+  td {
+    padding: 20px;
+    border: solid $calendar-border-width transparentize($color_secondary, 0.5);
+    color: $page_text;
+  }
+}
+
+.calendar-intro{
+  color: $page_text;
+  font-size: $page-font-size;
+}
+
+.col-day {
+  width: 20vw;
+}

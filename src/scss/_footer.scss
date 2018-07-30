@@ -1,0 +1,35 @@
+@import "palette";
+
+$footer_height: 6vw;
+
+.footer {
+  display: flex;
+  font-family: 'Bitter', serif;
+  height: $footer_height;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  color: transparentize($header_text, 0.3);
+  background: linear-gradient(to right, $color_primary_darkened, $color_primary, $color_primary_darkened);
+  align-items: flex-start;
+  .row {
+    //padding: 3vw;
+    height: $footer_height;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}
+
+.footer-section {
+  padding: 2vw;
+  text-align: center;
+  vertical-align: top;
+}
+
+.facebook-link {
+  color: transparentize($header_text, 0.3);
+  &:hover {
+    color: $header_text;
+  }
+}

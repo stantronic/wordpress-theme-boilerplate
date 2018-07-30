@@ -1,0 +1,37 @@
+//Page
+@import "palette";
+@import "dimensions";
+
+$page-font-size: 1.2em;
+
+.page-title {
+  font-family: 'Signika', sans-serif;
+  font-size: 2em;
+}
+
+.page-layout {
+  background-color: $color_page;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw $decent-margin 5vw;
+}
+
+.page-content {
+  font-family: 'Bitter', serif;
+  font-size: $page-font-size;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  flex: 1;
+  flex-grow: 1;
+  color: $page_text;
+}
+
+.content {
+  h1 {
+    color: $color_primary;
+  }
+}
+
+.page-image{
+  align-self: flex-end;
+}
