@@ -1,1 +1,1 @@
-<?phpget_header();?>    <div class="content blog-page">        No blogs available    </div><?phpget_footer();
+<?phpget_header();?>    <div class="content blog-page">        No blogs available    </div><?phpget_footer();

@@ -1,16 +1,12 @@
 {
-  "name": "stantronic-wordpress-theme-boilerplate",
-  "version":"0.1.0",
-  "description": "dev set up to begin coding a new WordPress theme",
-  "type": "project",
-  "require-dev": {
-    "phpunit/phpunit": "4.8.36"
-  },
-  "license": "UNLICENSED",
-  "authors": [
-    {
-      "name": "Steven Stanton",
-      "email": "stantronic@gmail.com"
+    "name": "stanton/theme",
+    "type": "project",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Steven Stanton"
+        }
+    ],
+    "require": {
     }
-  ]
 }

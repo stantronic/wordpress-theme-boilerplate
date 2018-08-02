@@ -18,7 +18,6 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'dev_wordpress');
 
@@ -96,19 +95,3 @@ require_once(ABSPATH . 'wp-settings.php');
 define('FS_METHOD', 'direct');
 
 define('WP_TEMP_DIR', '/opt/bitnami/wordpress/tmp/');
-
-
-
-//  Disable pingback.ping xmlrpc method to prevent WordPress from participating in DDoS attacks
-//  More info at: https://wiki.bitnami.com/Applications/Bitnami_WordPress#XMLRPC_and_Pingback
-//
-//// remove x-pingback HTTP header
-//add_filter("wp_headers", function($headers) {
-//            unset($headers["X-Pingback"]);
-//            return $headers;
-//           });
-//// disable pingbacks
-//add_filter( "xmlrpc_methods", function( $methods ) {
-//             unset( $methods["pingback.ping"] );
-//             return $methods;
-//           });
